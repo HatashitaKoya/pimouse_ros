@@ -1,4 +1,7 @@
 <launch>
+<<<<<<< HEAD
   <!--<include file="$(find pimouse_sim_act)/launch/pimouse_lightsensor.launch" /> -->
+=======
+>>>>>>> 9d653943d06e955490ad335ead2fab121c17be0d
   <node pkg="pimouse_ros" name="keyboard" type="keyboard.py" required="true" />
 </launch>
