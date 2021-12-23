@@ -4,7 +4,7 @@ import rospy, actionlib
 from std_msgs.msg import UInt16
 from pimouse_ros.msg import MusicAction, MusicResult, MusicFeedback # 行を追加
 
-def write_freq(hz=0):
+def write_freq(hz=1000):
     bfile = "/dev/rtbuzzer0"
     try:
         with open(bfile,"w") as f:
